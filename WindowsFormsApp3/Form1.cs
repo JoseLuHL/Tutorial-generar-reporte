@@ -77,7 +77,7 @@ namespace WindowsFormsApp3
             }
 
             var cry = new CrystalReport1();
-
+             
             this.crystalReportViewer1.ReportSource = cry;
 
             cry.SetDataSource(clientes);
