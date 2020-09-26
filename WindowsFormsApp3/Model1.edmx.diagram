@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="45cab05978a04733bb386c57018b6bbf" Name="Diagram1">
+        <EntityTypeShape EntityType="JosephTutos_PedidosModel.bancos" Width="1.5" PointX="6" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="JosephTutos_PedidosModel.categoria" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="JosephTutos_PedidosModel.cliente" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="JosephTutos_PedidosModel.cuentascliente" Width="1.5" PointX="8.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="JosephTutos_PedidosModel.estadoorden" Width="1.5" PointX="6" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="JosephTutos_PedidosModel.mediopago" Width="1.5" PointX="6" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="JosephTutos_PedidosModel.ordendetalle" Width="1.5" PointX="10.5" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="JosephTutos_PedidosModel.ordenes" Width="1.5" PointX="8.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="JosephTutos_PedidosModel.producto" Width="1.5" PointX="5.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="JosephTutos_PedidosModel.subcategoria" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="JosephTutos_PedidosModel.tienda" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="JosephTutos_PedidosModel.tipocuenta" Width="1.5" PointX="6" PointY="20.375" IsExpanded="true" />
+        <AssociationConnector Association="JosephTutos_PedidosModel.FK_cuentascliente_bancos" ManuallyRouted="false" />
+        <AssociationConnector Association="JosephTutos_PedidosModel.FK_subcategoria_categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="JosephTutos_PedidosModel.FK_cuentascliente_cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="JosephTutos_PedidosModel.FK_ordenes_cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="JosephTutos_PedidosModel.FK_cuentascliente_tipocuenta" ManuallyRouted="false" />
+        <AssociationConnector Association="JosephTutos_PedidosModel.FK_ordenes_estadoorden" ManuallyRouted="false" />
+        <AssociationConnector Association="JosephTutos_PedidosModel.FK_ordenes_mediopago" ManuallyRouted="false" />
+        <AssociationConnector Association="JosephTutos_PedidosModel.FK_ordendetalle_ordenes" ManuallyRouted="false" />
+        <AssociationConnector Association="JosephTutos_PedidosModel.FK_ordendetalle_producto" ManuallyRouted="false" />
+        <AssociationConnector Association="JosephTutos_PedidosModel.FK_ordenes_tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="JosephTutos_PedidosModel.FK_producto_subcategoria" ManuallyRouted="false" />
+        <AssociationConnector Association="JosephTutos_PedidosModel.FK_producto_tienda" ManuallyRouted="false" />
+        <AssociationConnector Association="JosephTutos_PedidosModel.detalletiendacategoria" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
